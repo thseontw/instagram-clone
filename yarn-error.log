@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add native-base @expo/vector-icons
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\kds\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\kds\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\kds\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kds\AppData\Local\Yarn\bin;C:\Users\kds\AppData\Roaming\npm;C:\Program Files\Java\jdk-11.0.3\bin;C:\Users\kds\AppData\Local\Android\Sdk\platform-tools;C:\Users\kds\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\kds\instagram-clone\node_modules\@react-native-community\cli\node_modules\node-fetch\lib'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^35.0.0",
+      "react": "16.8.3",
+      "react-dom": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+      "react-native-web": "^0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^7.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
