@@ -38,9 +38,6 @@ const CardComponent = ({ data }) => {
           />
         </CardItem>
       ) : null}
-      <CardItem style={{ height: 20 }}>
-        <Text>{data.active_votes.length}</Text>
-      </CardItem>
       <CardItem>
         <Text style={{ fontWeight: "900" }}>{data.title}</Text>
       </CardItem>
